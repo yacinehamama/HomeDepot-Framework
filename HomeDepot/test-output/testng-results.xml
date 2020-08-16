@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="adhoc" duration-ms="28014" started-at="2020-08-14T13:53:30 EDT" finished-at="2020-08-14T13:53:58 EDT">
+    <groups>
+    </groups>
+    <test name="home" duration-ms="28014" started-at="2020-08-14T13:53:30 EDT" finished-at="2020-08-14T13:53:58 EDT">
+      <class name="Bootcamp.HomeDepot.HomePageTest">
+        <test-method status="PASS" signature="browser(java.lang.String, java.lang.String)[pri:0, instance:Bootcamp.HomeDepot.HomePageTest@30b8a058]" name="browser" is-config="true" duration-ms="12107" started-at="2020-08-14T13:53:30 EDT" finished-at="2020-08-14T13:53:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="HomePageVerification()[pri:1, instance:Bootcamp.HomeDepot.HomePageTest@30b8a058]" name="HomePageVerification" duration-ms="7515" started-at="2020-08-14T13:53:43 EDT" finished-at="2020-08-14T13:53:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVerification -->
+        <test-method status="PASS" signature="RegisterPageVerification()[pri:2, instance:Bootcamp.HomeDepot.HomePageTest@30b8a058]" name="RegisterPageVerification" duration-ms="2414" started-at="2020-08-14T13:53:50 EDT" finished-at="2020-08-14T13:53:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPageVerification -->
+        <test-method status="PASS" signature="ContactInformationPageVerification()[pri:3, instance:Bootcamp.HomeDepot.HomePageTest@30b8a058]" name="ContactInformationPageVerification" duration-ms="2936" started-at="2020-08-14T13:53:53 EDT" finished-at="2020-08-14T13:53:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactInformationPageVerification -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Bootcamp.HomeDepot.HomePageTest@30b8a058]" name="afterClass" is-config="true" duration-ms="2965" started-at="2020-08-14T13:53:55 EDT" finished-at="2020-08-14T13:53:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Bootcamp.HomeDepot.HomePageTest -->
+    </test> <!-- home -->
+  </suite> <!-- adhoc -->
+</testng-results>

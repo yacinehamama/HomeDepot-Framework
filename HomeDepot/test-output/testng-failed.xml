@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [adhoc]">
+  <parameter name="url" value="https://www.homedepot.com/"/>
+  <test thread-count="5" name="home(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Bootcamp.HomeDepot.HomePageTest">
+        <methods>
+          <include name="RegisterPageVerification"/>
+          <include name="afterClass"/>
+          <include name="HomePageVerification"/>
+          <include name="ContactInformationPageVerification"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- Bootcamp.HomeDepot.HomePageTest -->
+    </classes>
+  </test> <!-- home(failed) -->
+</suite> <!-- Failed suite [adhoc] -->

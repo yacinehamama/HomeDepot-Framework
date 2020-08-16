@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "adhoc">
+
+<parameter name ="url"     value= "https://www.homedepot.com/"></parameter>
+<test name= "home">
+<parameter name= "browser" value = "chrome"></parameter>
+<classes>
+<class name= "Bootcamp.HomeDepot.HomePageTest"></class>
+
+</classes>
+</test>
+
+</suite>
+
